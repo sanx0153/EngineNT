@@ -1,4 +1,0 @@
-class AIinput extends InputAPI
-{
-    
-}
