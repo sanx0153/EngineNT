@@ -1,7 +1,7 @@
 class claRuler
 {
     __New() {
-        this.measureTable := {window:{height :"",width:""},tile: {height:"",width:""}}
+        this.measureTable := {window:{height :"",width:""},tile: {height:"",width:""},cm: ""}
         this.CalculateMeasures()
         this.StateGlobals()
     }
@@ -11,6 +11,7 @@ class claRuler
         this.measureTable.window.width := Round(this.measureTable.window.height * 1.33)
         this.measureTable.tile.height := Round(this.measureTable.window.height / 600 * 32)
         this.measureTable.tile.width := Round(this.measureTable.window.width / 800 * 16)
+        this.measureTable.cm := Round(this.measureTable.tile.width / 8)
     }
     StateGlobals()
     {
@@ -19,5 +20,6 @@ class claRuler
             WIN_W := this.measureTable.window.width
             TILE_H := this.measureTable.tile.height
             TILE_W := this.measureTable.tile.width
+            CM := this.measureTable.cm
     }
 }

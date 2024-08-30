@@ -6,9 +6,13 @@ class claGraphics
     }
 }
 class claWindow {
-    this.gui := Gui()
+    gui := Gui()
 
 }
 class claPictures {
-    
+    collection := {}
+    __New() {
+        this.CreateCollections() ;by reading img folder
+        
+    }
 }
