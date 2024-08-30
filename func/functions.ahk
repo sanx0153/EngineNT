@@ -1,0 +1,4 @@
+StartingLine()
+{
+    global app := application()
+}
