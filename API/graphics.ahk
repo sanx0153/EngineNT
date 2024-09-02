@@ -1,18 +1,36 @@
 class claGraphics
 {
-    __New() {
-        this.window := claWindow()
-        this.pictures := claPictures()
+    window := claWindow()
+    pictures := claPictures()
+    __New() 
+    {
+
     }
 }
-class claWindow {
+class claWindow 
+{
     gui := Gui()
-
+    __New() 
+    {
+        this.gui.Opt("-Border -Caption -Resize")
+        this.gui.Show("W" WIN_W " H" WIN_H " Center")
+    }
 }
-class claPictures {
+class claPictures 
+{
     collection := {}
-    __New() {
-        this.CreateCollections() ;by reading img folder
+    __New() 
+    {
+        this.collection.Default := []
+        this.NameCollections() ;by reading img folder
+        this.LoadImages() ;by collection name
+    }
+    NameCollections()
+    {
         
+    }
+    LoadImages()
+    {
+    
     }
 }

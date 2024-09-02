@@ -1,8 +1,12 @@
 class application
 {
-    __New() {
-        this.ruler := claRuler()
-        this.graphics := claGraphics()
-        this.scene := claMainTitle()
+    ruler    := claRuler()
+    graphics := claGraphics()
+    input    := claInput()
+    scene    := claMainTitle()
+    APIhub   := APIHub(this.graphics,this.input,this.scene)
+    __New() 
+    {
+
     }
 }

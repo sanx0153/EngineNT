@@ -1,4 +1,7 @@
-class claMainTitle
+class TitleScreen extends AbstractScreen
 {
-    
+    __New() 
+    {
+
+    }    
 }
