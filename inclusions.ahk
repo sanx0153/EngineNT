@@ -5,7 +5,8 @@
 #Include API\graphics.ahk
 #Include API\maintitle.ahk
 #Include API\ruler.ahk
-#Include func\functions.ahk
 ;FUNC
+#Include func\functions.ahk
 ;LIB
+
 ;#Include lib\

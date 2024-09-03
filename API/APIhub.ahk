@@ -1,6 +1,7 @@
 class APIHub {
-   __New(&output,&input,&logical) 
+   __New() 
    {
       global API := &this
+      this.graphics := application.
    }
 }

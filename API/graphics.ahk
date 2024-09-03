@@ -4,7 +4,10 @@ class claGraphics
     pictures := claPictures()
     __New() 
     {
-
+    }
+    GetRef()
+    {
+        return &this
     }
 }
 class claWindow 
@@ -27,7 +30,7 @@ class claPictures
     }
     NameCollections()
     {
-        
+
     }
     LoadImages()
     {

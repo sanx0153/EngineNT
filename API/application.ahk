@@ -4,9 +4,12 @@ class application
     graphics := claGraphics()
     input    := claInput()
     scene    := claMainTitle()
-    APIhub   := APIHub(this.graphics,this.input,this.scene)
+    APIhub   := APIHub()
     __New() 
     {
-
+    }
+    testMe()
+    {
+    
     }
 }

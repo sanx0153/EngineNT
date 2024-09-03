@@ -8,7 +8,6 @@ debugState := true
 if debugState = true
 {
     ListLines()
-    ListVars()
 }
 
 ;START
